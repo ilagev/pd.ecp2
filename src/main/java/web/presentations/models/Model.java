@@ -14,4 +14,8 @@ public class Model {
     public Object get(String key) {
         return map.get(key);
     }
+    
+    public Map<String, Object> getMap() {
+        return map;
+    }
 }
